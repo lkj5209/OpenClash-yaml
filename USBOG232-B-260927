@@ -50,7 +50,11 @@ ruleset=DIRECT,[]GEOSITE,category-public-tracker
 ; --- 核心应用 ---
 ruleset=📦 Notion,[]GEOSITE,Notion
 
+ruleset=📨 Telegram,clash-domain:https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/Telegram.yaml,86400
 ruleset=📨 Telegram,[]GEOSITE,telegram
+ruleset=📨 Telegram,[]GEOIP,telegram,no-resolve
+ruleset=📨 Telegram,clash-domain:https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/telegram.yaml,86400
+ruleset=📨 Telegram,clash-domain:https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geoip/telegram.yaml,86400
 
 ruleset=🤖 ChatGPT,[]GEOSITE,openai
 ruleset=🧠 AI,[]GEOSITE,category-ai-!cn
